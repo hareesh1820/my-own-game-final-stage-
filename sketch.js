@@ -89,7 +89,7 @@ function draw(){
 
 }
 
-function spawnDoors() {
+function spawnDoors() 
   if (frameCount % 240 === 0) {
     var door = createSprite(200, -50);
     var climber = createSprite(200,10);
@@ -123,5 +123,3 @@ function spawnDoors() {
     climbersGroup.add(climber);
     invisibleBlockGroup.add(invisibleBlock);
   }
-}
-
